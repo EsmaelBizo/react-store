@@ -1,0 +1,18 @@
+.btn {
+    @apply border border-transparent rounded-sm min-h-12 px-5 inline-flex items-center justify-center font-extrabold transition-all duration-200;
+}
+
+
+.btn--dark {
+    @apply bg-dark text-white hover:bg-dark-soft;
+}
+
+.btn--light {
+    @apply bg-surface border border-border text-text hover:bg-surface-2;
+}
+
+.btn:hover {
+    @apply transform -translate-y-0.5;
+}
+
+@reference "./index.css";
