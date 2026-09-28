@@ -12,7 +12,7 @@ function UpdatePage() {
 
   return (
     <section
-      className=" w-full py-20 bg-surface border-block border-border"
+      className="w-full py-20 bg-surface border-block border-border"
       id="manage"
     >
       {!product.message?.includes("not found") && (

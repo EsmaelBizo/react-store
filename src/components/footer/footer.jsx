@@ -10,7 +10,7 @@ function Footer() {
             BIZO<span className="text-primary">STORE</span>
           </Link>
           <p className="text-muted">
-            A simple modern storefront for CRUD training.
+            A simple modern storefront for CRUD operations.
           </p>
         </div>
 
